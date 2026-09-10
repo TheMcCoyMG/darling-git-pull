@@ -25,11 +25,18 @@
       "next_action": "confirm head tags on /"
     },
     {
-      "capability": "two photographs",
+      "capability": "hero and strip photographs",
       "source": "remote URLs on Vercel blob storage",
       "outcome": "preserve",
-      "status": "implemented",
+      "status": "verified",
       "next_action": "optional follow-up: share-sized 1200x630 copy for social previews"
+    },
+    {
+      "capability": "logo picture background",
+      "source": "remote JPEG on Vercel blob storage",
+      "outcome": "preserve",
+      "status": "blocked",
+      "next_action": "grey transparency checkerboard is baked into the JPEG pixels; owner to supply a clean transparent PNG or approve cleaning it here"
     },
     {
       "capability": "header navigation anchors (#about, #journey, #principles, #updates, #contact)",
