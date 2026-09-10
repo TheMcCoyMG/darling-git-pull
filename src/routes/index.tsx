@@ -152,8 +152,8 @@ function HomePage() {
             <em>here.</em>
           </h2>
           <div className="timeline">
-            {site.journey.map((entry) => (
-              <article className="timeline-row" key={entry.title}>
+            {site.journey.map((entry, index) => (
+              <article className="timeline-row" key={index}>
                 <p className="timeline-slot">{entry.slot}</p>
                 <div className="timeline-body">
                   <h3>{entry.title}</h3>
@@ -174,8 +174,8 @@ function HomePage() {
             <em>compromise on.</em>
           </h2>
           <div className="principle-grid">
-            {site.principles.map((principle) => (
-              <article className="principle" key={principle.mark}>
+            {site.principles.map((principle, index) => (
+              <article className="principle" key={index}>
                 <p className="principle-mark" aria-hidden="true">
                   {principle.mark}
                 </p>
@@ -196,8 +196,8 @@ function HomePage() {
             <em>next.</em>
           </h2>
           <div className="update-list">
-            {site.updates.map((update) => (
-              <article className="update" key={update.title}>
+            {site.updates.map((update, index) => (
+              <article className="update" key={index}>
                 <time>{update.date}</time>
                 <div>
                   <h3>{update.title}</h3>
