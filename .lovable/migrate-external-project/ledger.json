@@ -1,0 +1,77 @@
+{
+  "source": "https://github.com/TheMcCoyMG/TheMcCoyMG.git",
+  "sourceCommit": "shallow clone, default branch",
+  "detectedStack": "Next.js 16 App Router, plain CSS, no config files, no database, no auth",
+  "capabilities": [
+    {
+      "capability": "home page layout (header, campaign strip, hero, statement, footer)",
+      "source": "app/page.tsx",
+      "outcome": "recreate",
+      "status": "implemented",
+      "next_action": "verify in browser at desktop and phone widths"
+    },
+    {
+      "capability": "visual design system (palette, Space Grotesk + DM Sans, hard-edged cards)",
+      "source": "app/styles.css",
+      "outcome": "recreate",
+      "status": "implemented",
+      "next_action": "confirm rendered colours and type match source"
+    },
+    {
+      "capability": "page metadata (title, description)",
+      "source": "app/layout.tsx",
+      "outcome": "recreate",
+      "status": "implemented",
+      "next_action": "confirm head tags on /"
+    },
+    {
+      "capability": "two photographs",
+      "source": "remote URLs on Vercel blob storage",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "optional follow-up: share-sized 1200x630 copy for social previews"
+    },
+    {
+      "capability": "header navigation anchors (#about, #journey, #principles, #updates, #contact)",
+      "source": "app/page.tsx",
+      "outcome": "extend",
+      "status": "implemented",
+      "next_action": "user replaces placeholder wording in the three new sections"
+    },
+    {
+      "capability": "responsive layout (800px breakpoint)",
+      "source": "app/styles.css",
+      "outcome": "recreate",
+      "status": "implemented",
+      "next_action": "screenshot at 375px width"
+    },
+    {
+      "capability": "authentication",
+      "source": "not present in source",
+      "outcome": "not-needed",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "database and record exports",
+      "source": "not present in source",
+      "outcome": "not-needed",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "forms, payments, email, AI, webhooks, schedules",
+      "source": "not present in source",
+      "outcome": "not-needed",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "README profile bio (McCoy, X @McCoy_MG, WhatsApp)",
+      "source": "README.md",
+      "outcome": "excluded",
+      "status": "accepted",
+      "next_action": "user confirms whether this identity belongs anywhere on the site"
+    }
+  ]
+}
