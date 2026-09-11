@@ -10,7 +10,7 @@ Import of `github.com/TheMcCoyMG/TheMcCoyMG` (one-page Next.js profile site) int
 - [x] Rebuild the page at `/` with new Journey, Principles and Updates sections
 - [x] Head metadata, canonical, and ProfilePage/Person structured data
 - [x] Verify in a browser: desktop + phone screenshots, every nav link lands on a real section, clean console
-- [x] Browser-tab icon derived from the site's round R mark
+- [x] Official logo reused in the header, loading screen, favicon, and mobile icon
 - [ ] Logo picture has a grey checkerboard baked into its background (a transparency grid saved as a flat picture) — needs the owner's call
 - [ ] User confirms contact email, headline and statement wording (inherited from the repo)
 - [ ] Optional follow-up, needs approval: share-sized 1200x630 image for link previews
