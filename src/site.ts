@@ -7,7 +7,7 @@ export const site = {
   email: "hello@rotimogundele.com",
   tagline: "People first. Progress always.",
   images: {
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_6pofin6pofin6pof.jfif-DT90Xfrfodzif2AABZtAUk9In040lp.jpeg",
+    logo: "/official-logo.jpeg",
     hero: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-tse7NTbDHakCFProB62o6zFOuhWc40.png",
   },
   nav: [
